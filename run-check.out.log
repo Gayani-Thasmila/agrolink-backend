@@ -1,0 +1,86 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.agrolink:agrolink-backend >--------------------
+[INFO] Building agrolink-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.3:run (default-cli) > test-compile @ agrolink-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ agrolink-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ agrolink-backend ---
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 22 source files with javac [debug parameters release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ agrolink-backend ---
+[INFO] skip non existing resourceDirectory C:\Users\sw\Downloads\agrolink-backend\agrolink-backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ agrolink-backend ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target\test-classes
+[INFO] 
+[INFO] <<< spring-boot:4.0.3:run (default-cli) < test-compile @ agrolink-backend <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.3:run (default-cli) @ agrolink-backend ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.3)
+
+2026-03-25T18:08:51.430+05:30  INFO 712 --- [agrolink-backend] [           main] c.a.backend.AgrolinkBackendApplication   : Starting AgrolinkBackendApplication using Java 17.0.16 with PID 712 (C:\Users\sw\Downloads\agrolink-backend\agrolink-backend\target\classes started by sw in C:\Users\sw\Downloads\agrolink-backend\agrolink-backend)
+2026-03-25T18:08:51.466+05:30  INFO 712 --- [agrolink-backend] [           main] c.a.backend.AgrolinkBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-25T18:09:01.559+05:30  INFO 712 --- [agrolink-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-25T18:09:02.025+05:30  INFO 712 --- [agrolink-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 391 ms. Found 5 JPA repository interfaces.
+2026-03-25T18:09:05.973+05:30  INFO 712 --- [agrolink-backend] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-25T18:09:06.036+05:30  INFO 712 --- [agrolink-backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-25T18:09:06.052+05:30  INFO 712 --- [agrolink-backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-03-25T18:09:06.452+05:30  INFO 712 --- [agrolink-backend] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 14408 ms
+2026-03-25T18:09:07.818+05:30  INFO 712 --- [agrolink-backend] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-03-25T18:09:08.145+05:30  INFO 712 --- [agrolink-backend] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-03-25T18:09:21.152+05:30  INFO 712 --- [agrolink-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-25T18:09:22.642+05:30  INFO 712 --- [agrolink-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-25T18:09:27.738+05:30  INFO 712 --- [agrolink-backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@686e7513
+2026-03-25T18:09:27.738+05:30  INFO 712 --- [agrolink-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-25T18:09:29.350+05:30  INFO 712 --- [agrolink-backend] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/agrolink_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: agrolink_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-25T18:09:44.489+05:30  INFO 712 --- [agrolink-backend] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-25T18:09:46.318+05:30  INFO 712 --- [agrolink-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-25T18:09:47.052+05:30  INFO 712 --- [agrolink-backend] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-25T18:09:52.730+05:30  INFO 712 --- [agrolink-backend] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-25T18:09:53.169+05:30  INFO 712 --- [agrolink-backend] [           main] c.a.backend.AgrolinkBackendApplication   : Started AgrolinkBackendApplication in 64.853 seconds (process running for 71.806)
+2026-03-25T18:10:31.751+05:30  INFO 712 --- [agrolink-backend] [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-25T18:10:31.782+05:30  INFO 712 --- [agrolink-backend] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-25T18:10:31.864+05:30  INFO 712 --- [agrolink-backend] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 50 ms
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0
+2026-03-25T18:25:25.893+05:30  WARN 712 --- [agrolink-backend] [io-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-03-25T18:25:35.614+05:30  WARN 712 --- [agrolink-backend] [nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0 where u1_0.email=?
+Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from users u1_0 where u1_0.email=?

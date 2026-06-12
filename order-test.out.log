@@ -1,0 +1,43 @@
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-03-28T12:44:37.479+05:30  INFO 12512 --- [agrolink-backend] [           main] c.a.backend.AgrolinkBackendApplication   : Starting AgrolinkBackendApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 12512 (C:\Users\sw\Downloads\agrolink-backend\agrolink-backend\target\agrolink-backend-0.0.1-SNAPSHOT.jar started by sw in C:\Users\sw\Downloads\agrolink-backend\agrolink-backend)
+2026-03-28T12:44:37.882+05:30  INFO 12512 --- [agrolink-backend] [           main] c.a.backend.AgrolinkBackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-28T12:44:55.938+05:30  INFO 12512 --- [agrolink-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-28T12:44:57.275+05:30  INFO 12512 --- [agrolink-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1149 ms. Found 5 JPA repository interfaces.
+2026-03-28T12:45:06.609+05:30  INFO 12512 --- [agrolink-backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-03-28T12:45:06.744+05:30  INFO 12512 --- [agrolink-backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-28T12:45:06.753+05:30  INFO 12512 --- [agrolink-backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-03-28T12:45:07.428+05:30  INFO 12512 --- [agrolink-backend] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-28T12:45:07.439+05:30  INFO 12512 --- [agrolink-backend] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 28313 ms
+Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+2026-03-28T12:45:08.510+05:30  INFO 12512 --- [agrolink-backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-28T12:45:09.174+05:30  INFO 12512 --- [agrolink-backend] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-28T12:45:09.915+05:30  INFO 12512 --- [agrolink-backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-28T12:45:15.423+05:30  INFO 12512 --- [agrolink-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-28T12:45:16.468+05:30  INFO 12512 --- [agrolink-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-28T12:45:23.567+05:30  INFO 12512 --- [agrolink-backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@350d26f3
+2026-03-28T12:45:24.445+05:30  INFO 12512 --- [agrolink-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-28T12:45:46.005+05:30  INFO 12512 --- [agrolink-backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-28T12:45:47.782+05:30  INFO 12512 --- [agrolink-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-28T12:45:54.809+05:30  WARN 12512 --- [agrolink-backend] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0836b473-9691-48ba-bbdd-e020a182a7bb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-28T12:45:58.600+05:30  INFO 12512 --- [agrolink-backend] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c1ef806, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@969c2f9, org.springframework.security.web.context.SecurityContextHolderFilter@5cb64b9c, org.springframework.security.web.header.HeaderWriterFilter@31d8352e, org.springframework.web.filter.CorsFilter@7bbc11ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27244a88, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a76c90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d741200, org.springframework.security.web.access.ExceptionTranslationFilter@20843604, org.springframework.security.web.access.intercept.AuthorizationFilter@467e7793]
+2026-03-28T12:46:01.022+05:30  INFO 12512 --- [agrolink-backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path ''
+2026-03-28T12:46:01.702+05:30  INFO 12512 --- [agrolink-backend] [           main] c.a.backend.AgrolinkBackendApplication   : Started AgrolinkBackendApplication in 97.41 seconds (process running for 111.975)
+2026-03-28T12:46:05.271+05:30  INFO 12512 --- [agrolink-backend] [           main] c.a.backend.config.SchemaCleanupConfig   : Dropped legacy foreign key fk_orders_users from orders.user_id to users.user_id
+2026-03-28T12:46:59.569+05:30  INFO 12512 --- [agrolink-backend] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-28T12:47:00.041+05:30  INFO 12512 --- [agrolink-backend] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-28T12:47:00.308+05:30  INFO 12512 --- [agrolink-backend] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 84 ms
+Hibernate: insert into orders (order_date,order_status,total_price,user_id) values (?,?,?,?)
