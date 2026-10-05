@@ -27,7 +27,26 @@ public class UserController {
     @GetMapping("/users")
     public List<User> getUsers() { return userService.getAllUsers(); }
 
-    @PostMapping("/auth/register")
+    @GetMapping("/users/{id}")
+    public ResponseEntity<?> getUserById(@PathVariable int id) {
+        try {
+            return ResponseEntity.ok(userService.getUserById(id));
+        } catch (IllegalArgumentException ex) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());
+        }
+    }
+
+    @RequestMapping(value = {"/users/{id}", "/user/{id}", "/user/update/{id}"}, method = {RequestMethod.PUT, RequestMethod.PATCH})
+    public ResponseEntity<?> updateProfile(@PathVariable int id, @RequestBody UpdateProfileRequest request) {
+        try {
+            return ResponseEntity.ok(userService.updateProfile(id, request));
+        } catch (IllegalArgumentException ex) {
+            HttpStatus status = "User not found".equals(ex.getMessage()) ? HttpStatus.NOT_FOUND : HttpStatus.BAD_REQUEST;
+            return ResponseEntity.status(status).body(ex.getMessage());
+        }
+    }
+
+    @PostMapping({"/auth/register", "/user/save"})
     public ResponseEntity<AuthResponse> register(@RequestBody RegisterRequest request) {
         AuthResponse response = userService.register(request);
         return ResponseEntity.status(response.isSuccess() ? HttpStatus.CREATED : HttpStatus.BAD_REQUEST).body(response);

@@ -8,16 +8,10 @@ import lombok.Setter;
 @Getter
 @Setter
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class RegisterRequest {
+public class UpdateProfileRequest {
 
     @JsonAlias({"fullName", "userName", "username", "Name"})
     private String name;
-
-    @JsonAlias({"mail", "emailAddress", "Email"})
-    private String email;
-
-    @JsonAlias({"pass", "Password"})
-    private String password;
 
     @JsonAlias({"phoneNumber", "mobile", "mobileNumber", "contactNo", "Phone"})
     private String phone;
@@ -30,7 +24,4 @@ public class RegisterRequest {
 
     @JsonAlias({"lng", "lon"})
     private Double longitude;
-
-    @JsonAlias({"userType", "UserType"})
-    private String role;
 }

@@ -10,7 +10,7 @@ public class AuthResponse {
 
     private final User user;
 
-    public AuthResponse(boolean success, String message, User user, Object o) {
+    public AuthResponse(boolean success, String message, String token, User user) {
         this.success = success;
         this.message = message;
         this.user = user;

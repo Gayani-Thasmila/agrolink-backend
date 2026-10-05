@@ -1,92 +1,0 @@
-[INFO] Scanning for projects...
-Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
-Progress (1): 255 BProgress (2): 255 B | 234 BProgress (3): 255 B | 234 B | 249 B                                   Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 31 B/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 13 B/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 12 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
-Progress (1): 375 BProgress (2): 375 B | 394 BProgress (3): 375 B | 394 B | 242 BProgress (4): 375 B | 394 B | 242 B | 398 B                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 14 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
-Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 8 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
-Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 10 B/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (394 B at 11 B/s)
-Progress (1): 4.6 kBProgress (2): 4.6 kB | 3.1 kBProgress (2): 4.6 kB | 7.7 kBProgress (2): 9.7 kB | 7.7 kBProgress (2): 9.7 kB | 12 kB Progress (2): 9.7 kB | 17 kBProgress (2): 9.7 kB | 20 kBProgress (2): 9.7 kB | 21 kBProgress (2): 14 kB | 21 kB                            Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 400 B/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 577 B/s)
-[INFO] 
-[INFO] -------------------< com.agrolink:agrolink-backend >--------------------
-[INFO] Building agrolink-backend 0.0.1-SNAPSHOT
-[INFO]   from pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] >>> spring-boot:3.2.5:run (default-cli) > test-compile @ agrolink-backend >>>
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ agrolink-backend ---
-[INFO] Copying 1 resource from src\main\resources to target\classes
-[INFO] Copying 0 resource from src\main\resources to target\classes
-[INFO] 
-[INFO] --- compiler:3.11.0:compile (default-compile) @ agrolink-backend ---
-[INFO] Nothing to compile - all classes are up to date
-[INFO] 
-[INFO] --- resources:3.3.1:testResources (default-testResources) @ agrolink-backend ---
-[INFO] skip non existing resourceDirectory C:\Users\sw\Downloads\agrolink-backend\agrolink-backend\src\test\resources
-[INFO] 
-[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ agrolink-backend ---
-[INFO] Nothing to compile - all classes are up to date
-[INFO] 
-[INFO] <<< spring-boot:3.2.5:run (default-cli) < test-compile @ agrolink-backend <<<
-[INFO] 
-[INFO] 
-[INFO] --- spring-boot:3.2.5:run (default-cli) @ agrolink-backend ---
-[INFO] Attaching agents: []
-Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::                (v3.2.5)
-
-2026-03-28T16:49:11.210+05:30  INFO 7012 --- [agrolink-backend] [           main] c.a.backend.AgrolinkBackendApplication   : Starting AgrolinkBackendApplication using Java 17.0.16 with PID 7012 (C:\Users\sw\Downloads\agrolink-backend\agrolink-backend\target\classes started by sw in C:\Users\sw\Downloads\agrolink-backend\agrolink-backend)
-2026-03-28T16:49:11.226+05:30  INFO 7012 --- [agrolink-backend] [           main] c.a.backend.AgrolinkBackendApplication   : No active profile set, falling back to 1 default profile: "default"
-2026-03-28T16:49:16.654+05:30  INFO 7012 --- [agrolink-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-28T16:49:17.270+05:30  INFO 7012 --- [agrolink-backend] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 204 ms. Found 5 JPA repository interfaces.
-2026-03-28T16:49:28.989+05:30  INFO 7012 --- [agrolink-backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8083 (http)
-2026-03-28T16:49:29.320+05:30  INFO 7012 --- [agrolink-backend] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-28T16:49:29.369+05:30  INFO 7012 --- [agrolink-backend] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2026-03-28T16:49:32.844+05:30  INFO 7012 --- [agrolink-backend] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-28T16:49:32.913+05:30  INFO 7012 --- [agrolink-backend] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 21454 ms
-Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
-2026-03-28T16:49:34.480+05:30  INFO 7012 --- [agrolink-backend] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-28T16:49:35.834+05:30  INFO 7012 --- [agrolink-backend] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2026-03-28T16:49:36.133+05:30  INFO 7012 --- [agrolink-backend] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-28T16:49:39.859+05:30  INFO 7012 --- [agrolink-backend] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-28T16:49:40.685+05:30  INFO 7012 --- [agrolink-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-28T16:49:47.247+05:30  INFO 7012 --- [agrolink-backend] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e349cf2
-2026-03-28T16:49:47.741+05:30  INFO 7012 --- [agrolink-backend] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-28T16:50:04.032+05:30  INFO 7012 --- [agrolink-backend] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-28T16:50:06.619+05:30  INFO 7012 --- [agrolink-backend] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-28T16:50:11.305+05:30  WARN 7012 --- [agrolink-backend] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: ca6c9157-13f9-44a7-ba28-c318854625f1
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2026-03-28T16:50:14.144+05:30  INFO 7012 --- [agrolink-backend] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@17e725fb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76379796, org.springframework.security.web.context.SecurityContextHolderFilter@149ef64a, org.springframework.security.web.header.HeaderWriterFilter@5fb58f15, org.springframework.web.filter.CorsFilter@77350382, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e41b65a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d25943d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fbdee7a, org.springframework.security.web.access.ExceptionTranslationFilter@3b4b2c03, org.springframework.security.web.access.intercept.AuthorizationFilter@29390110]
-2026-03-28T16:50:15.325+05:30  INFO 7012 --- [agrolink-backend] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8083 (http) with context path ''
-2026-03-28T16:50:15.353+05:30  INFO 7012 --- [agrolink-backend] [           main] c.a.backend.AgrolinkBackendApplication   : Started AgrolinkBackendApplication in 67.36 seconds (process running for 71.982)
-2026-03-28T16:50:44.116+05:30  INFO 7012 --- [agrolink-backend] [nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-28T16:50:44.124+05:30  INFO 7012 --- [agrolink-backend] [nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-28T16:50:44.141+05:30  INFO 7012 --- [agrolink-backend] [nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2026-03-28T16:50:44.938+05:30  WARN 7012 --- [agrolink-backend] [nio-8083-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [155] milliseconds.
-2026-03-28T16:51:13.127+05:30  WARN 7012 --- [agrolink-backend] [nio-8083-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('\' (code 92)): was expecting double-quote to start field name]
-Hibernate: select u1_0.user_id,u1_0.address,u1_0.email,u1_0.name,u1_0.password,u1_0.phone,u1_0.role from user u1_0 where u1_0.user_id=?
-Hibernate: select p1_0.product_id,c1_0.category_id,c1_0.category_name,p1_0.description,p1_0.image_url,p1_0.product_name,p1_0.price,p1_0.stock from product p1_0 left join category c1_0 on c1_0.category_id=p1_0.category_id where p1_0.product_id=?
-Hibernate: insert into orders (order_date,order_status,total_price,user_id) values (?,?,?,?)
-Hibernate: insert into order_items (order_id,price,product_id,quantity) values (?,?,?,?)
